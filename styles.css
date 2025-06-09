@@ -1,1 +1,46 @@
 /*  your css code here. If applicable */
+/* Hero Container */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+  background-color: #fdfdfd;
+  box-sizing: border-box;
+}
+
+/* Text Content */
+.hero-content {
+  max-width: 50%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.hero-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+/* Button Styling */
+.explore-btn {
+  padding: 10px 20px;
+  background-color: #e60023;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+/* Image Styling */
+.hero-image img {
+  width: 400px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
